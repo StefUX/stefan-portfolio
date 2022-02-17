@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1df02b1a-0217-4b17-a06c-3d2e985a00e0" name="Default Changelist" comment="" />
+    <list default="true" id="1df02b1a-0217-4b17-a06c-3d2e985a00e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/tools/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tools/css/main.scss" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,12 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+            <state relative-caret-position="135">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -26,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/case-study-brainster.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+              <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
               <folding>
                 <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -37,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="288">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -46,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="416">
               <caret line="36" column="44" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="44" />
             </state>
           </provider>
@@ -55,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="770" column="21" selection-start-line="770" selection-start-column="21" selection-end-line="770" selection-end-column="21" />
+            <state relative-caret-position="310">
+              <caret line="412" column="22" selection-start-line="412" selection-start-column="22" selection-end-line="412" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -84,7 +89,12 @@
       <find>href</find>
       <find>fullre</find>
       <find>active</find>
+      <find>card</find>
+      <find>cv-item</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,18 +103,18 @@
         <option value="$PROJECT_DIR$/tools/about.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/case-study-brainster.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/tools/css/main.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="766" />
-    <option name="y" value="38" />
+    <option name="y" value="93" />
     <option name="width" value="1643" />
     <option name="height" value="951" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -114,13 +124,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="Kickstartr-Jade-Sass-boilerplate-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kickstartr-Jade-Sass-boilerplate-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Stefan Zafirovski - portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stefan Zafirovski - portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kickstartr-Jade-Sass-boilerplate-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kickstartr-Jade-Sass-boilerplate-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Stefan Zafirovski - portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stefan Zafirovski - portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stefan Zafirovski - portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stefan Zafirovski - portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,14 +182,15 @@
       <updated>1645034763616</updated>
       <workItem from="1645034765339" duration="1000" />
       <workItem from="1645034785087" duration="13683000" />
+      <workItem from="1645115738772" duration="287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13684000" />
+    <option name="totallyTimeSpent" value="15120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="766" y="38" width="1643" height="951" extended-state="0" />
+    <frame x="0" y="93" width="1643" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969174" />
@@ -201,15 +218,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+        <state relative-caret-position="135">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case-study-brainster.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
           <folding>
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -218,22 +235,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="288">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="416">
           <caret line="36" column="44" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="770" column="21" selection-start-line="770" selection-start-column="21" selection-end-line="770" selection-end-column="21" />
+        <state relative-caret-position="310">
+          <caret line="412" column="22" selection-start-line="412" selection-start-column="22" selection-end-line="412" selection-end-column="22" />
         </state>
       </provider>
     </entry>

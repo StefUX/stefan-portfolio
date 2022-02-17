@@ -90,6 +90,9 @@ body {
       }
     }
   }
+  p{
+    line-height: 1.5;
+  }
 }
 
 .case-overview-box {
@@ -170,6 +173,9 @@ body {
   background: white;
   img {
     max-width: 100%;
+  }
+  p{
+    line-height: 1.5;
   }
 }
 
@@ -401,10 +407,10 @@ body {
     }
   }
   .active-nav{
-    border:solid 2px black;
-    padding: 4px 16px;
+    border:solid 1px black;
+    padding: 1px 8px;
     &:last-child{
-      padding-right: 16px;
+      padding-right: 8px;
     }
     border-radius: 50px;
   }
@@ -632,6 +638,7 @@ body {
   img{
     width: 50%;
     margin-left: 40px;
+    opacity: .8;
   }
   main{
     flex: 1;
@@ -658,7 +665,7 @@ body {
     h1{
       margin-top: 0;
       font-family: "Montserrat", sans-serif;
-      margin-bottom: 0;
+      margin-bottom: 10px;
       font-size: 20px;
     }
     h2{
@@ -674,6 +681,7 @@ body {
       font-size: 14px;
       margin-top: 8px;
       margin-bottom: 20px;
+      line-height: 1.5;
     }
     a{
       font-family: "Alice", serif;
