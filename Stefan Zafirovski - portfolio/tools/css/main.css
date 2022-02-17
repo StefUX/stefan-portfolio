@@ -528,6 +528,8 @@ body {
 .home-main .card aside img {
   width: 100%;
   max-height: 300px;
+  height: 300px;
+  min-height: 300px;
   -o-object-fit: contain;
      object-fit: contain;
 }
