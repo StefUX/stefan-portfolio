@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stefan Zafirovski</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <link rel="stylesheet" type="text/css" href="tools/css/main.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="theme-color" content="#000000" />
+  </head>
+  <body>
+    <nav class="wrapper">
+      <a href="/">
+        <img src="tools/images/SZ-logo.svg" alt="Stefan Zafirovski logo" />
+      </a>
+      <a class="web" href="tools/images/CV-Stefan_Zafirovski.pdf" download
+        >Download my CV</a
+      >
+      <div class="dropdown-wrapper web">
+        <a href="" class="projects"
+          >Projects <img src="tools/images/chevron.svg" alt="Projects"
+        /></a>
+        <div class="dropdown">
+          <a href="case-study-brainster.html">Brainster on the go</a>
+          <a href="case-study-special-olympics.html">Special Olympics
+          </a>
+          <a href="">Tasty box (Coming soon)</a>
+        </div>
+      </div>
+      <a href="#footer" class="web">Let's talk</a>
+      <button class="mobile" id="menu" onclick="toggleMenu()">
+        <img src="tools/images/menu.svg" alt="Menu" />
+      </button>
+    </nav>
+    <div class="mobile-menu">
+      <button class="close" onclick="toggleMenu()">
+        <img src="tools/images/close.svg" alt="Close menu">
+      </button>
+      <a href="/">Home</a>
+      <a href="tools/images/CV-Stefan_Zafirovski.pdf" download
+      >Download my CV</a
+      >
+      <div class="mobile-projects">
+        <span>Projects</span>
+        <a href="case-study-brainster.html">Brainster on the go</a>
+        <a href="case-study-special-olympics.html">Special Olympics</a>
+        <a href="">Tasty Box</a>
+      </div>
+      <a href="#footer">Let's talk</a>
+    </div>
+    <main>
+      <div class="wrapper homepage-header">
+        <h1>
+          Stefan <br />
+          Zafirovski
+        </h1>
+        <h2>UI/UX Designer based in Prague</h2>
+        <a href="#footer" class="btn-primary">
+          Let's talk
+          <img src="tools/images/arrow-icon.svg" alt="Learn more" />
+        </a>
+      </div>
+      <div class="homepage-projects wrapper">
+        <h2>Selected Work</h2>
+        <div class="project-brief">
+          <img
+            src="tools/images/brainster-on-the-go.png"
+            alt="Brainster on the go"
+          />
+          <aside>
+            <h3>Brainster on the go</h3>
+            <p>
+              A gamified mobile e-learning application, that helps users find
+              their right career path and focus on developing the right skills
+              without a hustle.
+            </p>
+            <a href="case-study-brainster.html">
+              Learn more
+              <img src="tools/images/arrow-icon.svg" alt="Learn more" />
+            </a>
+          </aside>
+        </div>
+        <div class="project-brief project-brief-second">
+          <aside>
+            <h3>Special Olympics</h3>
+            <p>
+              A website dedicated to athletes with special needs and their
+              care-givers, allowing them to find and participate in special
+              sports events, while also providing exposure for attracting
+              partners, donors, and volunteers.
+            </p>
+            <a href="case-study-special-olympics.html">
+              Learn more
+              <img src="tools/images/arrow-icon.svg" alt="Learn more" />
+            </a>
+          </aside>
+          <img src="tools/images/special-olympics.png" alt="Special Olypmics" />
+        </div>
+        <div class="project-brief">
+          <img src="tools/images/tasty-box.png" alt="Tasty Box" />
+          <aside>
+            <h3>Tasty Box</h3>
+            <p>
+              Tasty Box is a platform that allows users to gift their friends,
+              family, or coworkers. The gifts are easily customizable, and the
+              process for sending gifts is done entirely online through a simple
+              process.
+            </p>
+            <span>Coming soon</span>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer class="wrapper" id="footer">
+      <p>I’m open for new opportunities</p>
+      <aside>
+        <a href="mailto:stefan.zafirovski@gmail.com"
+          >stefan.zafirovski@gmail.com</a
+        >
+        <a href="https://www.linkedin.com/in/stefanzafirovski/" target="_blank"
+          >Linked In</a
+        >
+      </aside>
+    </footer>
+  </body>
+  <script type="text/javascript">
+    let menu = 0;
+    function toggleMenu() {
+      menu = !menu;
+      let mobileMenu = document.getElementsByClassName('mobile-menu')[0];
+      if(menu){
+        mobileMenu.style.transform = 'translateX(0)';
+        console.log('true');
+      } else {
+        mobileMenu.style.transform = 'translateX(-100%)';
+      }
+    }
+  </script>
+</html>
