@@ -45,7 +45,7 @@
         <span>Projects</span>
         <a href="case-study-brainster.html">Brainster on the go</a>
         <a href="">Special Olympics</a>
-        <a href="">Tasty Box</a>
+        <a href="">Tasty Box (Coming soon)</a>
       </div>
       <a href="#footer">Let's talk</a>
     </div>
@@ -227,6 +227,39 @@
           </div>
         </div>
       </div>
+      <div class="so-map wrapper">
+        <h3>User journey map</h3>
+        <p>A user journey map helped me to better understand the respective needs of each persona. The originally planned syllabus was greatly adapted as there were unnecessary and unfavorable steps coming to light.</p>
+        <img src="tools/images/journey.png" alt="User journey map">
+      </div>
+      <div class="so-ia wrapper">
+        <h3>Information Architecture</h3>
+        <p>With the previous research, I was able to create a clean architecture taking into account every functionality and simple, intuitive navigation.</p>
+        <img src="tools/images/so-ia.png" alt="Information Architecture">
+      </div>
+      <div class="so-wireframes">
+        <div class="wrapper">
+          <h2>From research to wireframes</h2>
+        </div>
+        <img src="tools/images/so-wireframes.png" alt="Design wireframes">
+      </div>
+      <div class="so-wireframes" id="design">
+        <div class="wrapper">
+          <h2>From wireframes to high fidelity</h2>
+        </div>
+        <div class="design-block">
+          <img src="tools/images/so-1.png" alt="Design">
+          <img src="tools/images/so-2.png" alt="Design">
+        </div>
+        <div class="design-block moved">
+          <img src="tools/images/so-3.png" alt="Design">
+          <img src="tools/images/so-4.png" alt="Design">
+        </div>
+        <div class="wrapper">
+          <img src="tools/images/so-5.png" alt="Design">
+
+        </div>
+      </div>
       <div class="wrapper so-summary">
         <h3>Summary</h3>
         <p>
@@ -279,14 +312,17 @@
   </body>
   <script type="text/javascript">
     let menu = 0;
-
     function toggleMenu() {
       menu = !menu;
-      let mobileMenu = document.getElementsByClassName("mobile-menu")[0];
-      if (menu) {
-        mobileMenu.style.transform = "translateX(0)";
+      let mobileMenu = document.getElementsByClassName('mobile-menu')[0];
+      let body = document.getElementsByTagName("body")[0];
+      if(menu){
+        mobileMenu.style.transform = 'translateX(0)';
+        body.style.overflowY = 'hidden';
+
       } else {
-        mobileMenu.style.transform = "translateX(-100%)";
+        mobileMenu.style.transform = 'translateX(-100%)';
+        body.style.overflowY = 'auto';
       }
     }
   </script>

@@ -45,7 +45,7 @@
         <span>Projects</span>
         <a href="case-study-brainster.html">Brainster on the go</a>
         <a href="case-study-special-olympics.html">Special Olympics</a>
-        <a href="">Tasty Box</a>
+        <a href="">Tasty Box (Coming soon)</a>
       </div>
       <a href="#footer">Let's talk</a>
     </div>
@@ -521,16 +521,19 @@
     </footer>
   </body>
   <script type="text/javascript">
-    let menu = 0;
+      let menu = 0;
+      function toggleMenu() {
+          menu = !menu;
+          let mobileMenu = document.getElementsByClassName('mobile-menu')[0];
+          let body = document.getElementsByTagName("body")[0];
+          if(menu){
+              mobileMenu.style.transform = 'translateX(0)';
+              body.style.overflowY = 'hidden';
 
-    function toggleMenu() {
-      menu = !menu;
-      let mobileMenu = document.getElementsByClassName("mobile-menu")[0];
-      if (menu) {
-        mobileMenu.style.transform = "translateX(0)";
-      } else {
-        mobileMenu.style.transform = "translateX(-100%)";
+          } else {
+              mobileMenu.style.transform = 'translateX(-100%)';
+              body.style.overflowY = 'auto';
+          }
       }
-    }
   </script>
 </html>
